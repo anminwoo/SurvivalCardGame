@@ -29,6 +29,11 @@ public class Bar : MonoBehaviour
         }
 
         adjustBarFillCoroutine = StartCoroutine(AdjustBarFill(amount));
+
+        if (Value == 0)
+        {
+            Debug.Log($"{name} is 0");
+        }
     }
 
     private IEnumerator AdjustBarFill(int amount)
@@ -46,15 +51,17 @@ public class Bar : MonoBehaviour
         slowChangeBar.fillAmount = _targetFill;
     }
 
+   /*
     public void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Change(10);
+            Change(20);
         }
         else if (Input.GetMouseButtonDown(1))
         {
-            Change(-10);
+            Change(-20);
         }
     }
+    */
 }
