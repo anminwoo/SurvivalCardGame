@@ -34,6 +34,11 @@ public class Bar : MonoBehaviour
         {
             Debug.Log($"{name} is 0");
         }
+
+        if (Value == MaxValue)
+        {
+            Debug.Log($"{name} is {MaxValue}");
+        }
     }
 
     private IEnumerator AdjustBarFill(int amount)
