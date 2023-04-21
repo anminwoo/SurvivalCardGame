@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 public class Instantiator : MonoBehaviour
 {
     public Dictionary<string, CardData> cardDictionary = new Dictionary<string, CardData>();
+    [Tooltip("Spawnable cards in this game")]
     public List<CardData> cardList;
 
     public Transform canvasPosition;
