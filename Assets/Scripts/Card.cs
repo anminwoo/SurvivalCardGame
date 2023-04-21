@@ -39,9 +39,29 @@ public class Card : MonoBehaviour
     {
         GameManager.instance.MoveOnNextDay();
     }
-
-    public void ChangeStateValue(State type, int value)
+    
+    public void ChangeHpValue(int value)
     {
-        GameManager.instance.ChangeStateValue(type, value);
+        GameManager.instance.ChangeStatValue(PlayerStat.Hp, value);
+    }
+    
+    public void ChangeHungerValue(int value)
+    {
+        GameManager.instance.ChangeStatValue(PlayerStat.Hunger, value);
+    }
+    
+    public void ChangeMentalValue(int value)
+    {
+        GameManager.instance.ChangeStatValue(PlayerStat.Mental, value);
+    }
+
+    public void InstantiateCard()
+    {
+        GameManager.instance.instantiator.InstantiateCard();
+    }
+
+    public void InstantiateCard(CardData cardData)
+    {
+        GameManager.instance.instantiator.InstantiateCard(cardData);
     }
 }
