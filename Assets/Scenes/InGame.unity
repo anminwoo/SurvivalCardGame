@@ -451,13 +451,6 @@ MonoBehaviour:
   uiManager: {fileID: 1866046189}
   instantiator: {fileID: 125526474}
   day: 0
-  status: []
-  maxHealth: 0
-  health: 0
-  maxHunger: 0
-  hunger: 0
-  maxHeat: 0
-  heat: 0
 --- !u!4 &227268699
 Transform:
   m_ObjectHideFlags: 0
@@ -2083,6 +2076,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayText: {fileID: 1090013764}
+  stateBars:
+  - {fileID: 1645028838}
+  - {fileID: 1801455954}
+  - {fileID: 1128389780}
 --- !u!4 &1866046190
 Transform:
   m_ObjectHideFlags: 0
