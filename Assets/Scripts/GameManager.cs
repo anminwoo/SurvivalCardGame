@@ -13,17 +13,6 @@ public class GameManager : MonoBehaviour
 
     public int day;
 
-    private float[] status;
-
-    public float maxHealth;
-    public float health;
-
-    public float maxHunger;
-    public float hunger;
-
-    public float maxHeat;
-    public float heat;
-
     private void Awake()
     {
         if (instance != null)
@@ -46,27 +35,22 @@ public class GameManager : MonoBehaviour
         instantiator.InitCardList();
     }
 
-    public void ChangeStateValue(State type, int value)
+    public void ChangeStatValue(PlayerStat stat, int value)
     {
-        status[(int)type] += value;
-
-        if (status[(int)type] == 0)
-        {
-            Debug.Log($"{type} is 0. you die.");
-        }
+        uiManager.ChangeStat(stat, value);
     }
 
     public void MoveOnNextDay()
     {
         day++;
-        Debug.Log(day);
         uiManager.ChangeDayText(day);
     }
 }
 
-public enum State
+public enum PlayerStat
 {
     Hp,
     Hunger,
+    Mental,
     Heat,
 }
