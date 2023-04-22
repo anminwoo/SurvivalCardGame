@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardList:
   - {fileID: 11400000, guid: b1014a6e93b5cfc40a27b3dbd99129aa, type: 2}
+  - {fileID: 11400000, guid: 2f5a5515956314f439197914169467d1, type: 2}
   canvasPosition: {fileID: 619300570}
   cardPrefab: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
 --- !u!4 &125526475
@@ -2328,6 +2329,7 @@ MonoBehaviour:
   stateBars:
   - {fileID: 1645028838}
   - {fileID: 1801455954}
+  - {fileID: 1855939536}
   - {fileID: 1128389780}
 --- !u!4 &1866046190
 Transform:
