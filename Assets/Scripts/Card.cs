@@ -35,9 +35,9 @@ public class Card : MonoBehaviour
         rightSwipeEvent = cardData.rightSwipeEvent;
     }
 
-    public void MoveOnNextDay()
+    public void MoveNextDay()
     {
-        GameManager.instance.MoveOnNextDay();
+        GameManager.instance.MoveNextDay();
     }
     
     public void ChangeHpValue(int value)
@@ -48,6 +48,11 @@ public class Card : MonoBehaviour
     public void ChangeHungerValue(int value)
     {
         GameManager.instance.ChangeStatValue(PlayerStat.Hunger, value);
+    }
+
+    public void ChangeThirstValue(int value)
+    {
+        GameManager.instance.ChangeStatValue(PlayerStat.Thirst, value);
     }
     
     public void ChangeMentalValue(int value)
