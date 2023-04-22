@@ -32,6 +32,13 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         day = 0;
+        ChangeDay(day);
+
+        foreach (PlayerStat stat in Enum.GetValues(typeof(PlayerStat)))
+        {
+            ChangeStatValue(stat, 100);
+        }
+        
         instantiator.InitCardList();
     }
 
@@ -40,10 +47,14 @@ public class GameManager : MonoBehaviour
         uiManager.ChangeStat(stat, value);
     }
 
-    public void MoveOnNextDay()
+    public void ChangeDay(int date)
     {
-        day++;
-        uiManager.ChangeDayText(day);
+        uiManager.ChangeDayText(date);
+    }
+
+    public void MoveNextDay()
+    {
+        uiManager.ChangeDayText(++day);
     }
 }
 
@@ -51,6 +62,7 @@ public enum PlayerStat
 {
     Hp,
     Hunger,
+    Thirst,
     Mental,
-    Heat,
+    
 }
