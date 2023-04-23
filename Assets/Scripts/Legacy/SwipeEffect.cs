@@ -13,34 +13,38 @@ public class SwipeEffect : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     private Vector3 initialPosition;
     private Color initialColor;
 
+    private int screenWidth;
+
     private float distanceMoved;
 
     private bool swipeLeft;
 
     private void Start()
     {
+        screenWidth = Screen.width;
+        
        // cardImage = card.cardCharacterImage;
         card = GetComponent<Card>();
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        transform.localPosition = new Vector2(transform.localPosition.x + eventData.delta.x, transform.localPosition.y);
+        transform.localPosition = new Vector2(Mathf.Clamp(transform.localPosition.x + eventData.delta.x, -0.25f * screenWidth, 0.25f * screenWidth), transform.localPosition.y);
 
         if (transform.localPosition.x - initialPosition.x > 0) // right
         {
             transform.localEulerAngles = new Vector3(0, 0,
-                Mathf.LerpAngle(0, -30f, (initialPosition.x + transform.localPosition.x) / (Screen.width / 2)));
+                Mathf.LerpAngle(0, -30f, (initialPosition.x + transform.localPosition.x) / (screenWidth / 2)));
 
-            card.dialogue.alignment = TextAlignmentOptions.Right;
+            card.dialogue.alignment = TextAlignmentOptions.Left;
             card.dialogue.text = card.rightDialogue;
         }
         else // left
         {
             transform.localEulerAngles = new Vector3(0, 0,
-                Mathf.LerpAngle(0, 30f, (initialPosition.x - transform.localPosition.x) / (Screen.width / 2)));
+                Mathf.LerpAngle(0, 30f, (initialPosition.x - transform.localPosition.x) / (screenWidth / 2)));
 
-            card.dialogue.alignment = TextAlignmentOptions.Left;
+            card.dialogue.alignment = TextAlignmentOptions.Right;
             card.dialogue.text = card.leftDialogue;
         }
 
@@ -56,7 +60,7 @@ public class SwipeEffect : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     public void OnEndDrag(PointerEventData eventData)
     {
         distanceMoved = Mathf.Abs(transform.localPosition.x - initialPosition.x);
-        if (distanceMoved < 0.2f * Screen.width)
+        if (distanceMoved < 0.2f * screenWidth)
         {
             transform.localPosition = initialPosition;
             cardImage.color = initialColor;
