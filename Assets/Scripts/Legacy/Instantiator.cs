@@ -7,8 +7,9 @@ using Random = UnityEngine.Random;
 public class Instantiator : MonoBehaviour
 {
     public Dictionary<string, CardData> cardDictionary = new Dictionary<string, CardData>();
+    public Dictionary<string, CardPack> cardPackDictionary = new Dictionary<string, CardPack>();
     [Tooltip("Spawnable cards in this game")]
-    public List<CardData> cardList;
+    public List<CardData> spawnableCardList;
 
     public Transform cardSpawnPos;
     public Card cardPrefab;
@@ -22,26 +23,25 @@ public class Instantiator : MonoBehaviour
     {
         if (cardDictionary.TryAdd(cardData.cardName, cardData))
         {
-            cardList.Add(cardData);
+            spawnableCardList.Add(cardData);
         }
     }
 
     public void RemoveCard(CardData cardData)
     {
         cardDictionary.Remove(cardData.cardName);
-        cardList?.Remove(cardData);
+        spawnableCardList?.Remove(cardData);
     }
 
     public void InitCardList()
     {
-        cardDictionary.Clear();
-        cardList = null;
+        spawnableCardList.Clear();
     }
 
     public void InstantiateCard()
     {
         Card newCard = Instantiate(cardPrefab, cardSpawnPos);
-        newCard.InitCard(cardList[Random.Range(0, cardList.Count)]);
+        newCard.InitCard(spawnableCardList[Random.Range(0, spawnableCardList.Count)]);
     }
 
     public void InstantiateCard(CardData cardData)
