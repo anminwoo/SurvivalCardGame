@@ -39,8 +39,11 @@ public class GameManager : MonoBehaviour
             ChangeStatValue(stat, 100);
         }
         
-        instantiator.InitCardList();
-        instantiator.
+        instantiator.InitSpawnableCardList();
+        instantiator.InitCardDictionary();
+        instantiator.InitCardPackDictionary();
+        
+        
     }
 
     public void ChangeStatValue(PlayerStat stat, int value)
