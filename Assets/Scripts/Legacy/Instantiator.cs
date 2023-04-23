@@ -10,7 +10,7 @@ public class Instantiator : MonoBehaviour
     [Tooltip("Spawnable cards in this game")]
     public List<CardData> cardList;
 
-    public Transform canvasPosition;
+    public Transform cardSpawnPos;
     public Card cardPrefab;
 
     private void Awake()
@@ -40,13 +40,13 @@ public class Instantiator : MonoBehaviour
 
     public void InstantiateCard()
     {
-        Card newCard = Instantiate(cardPrefab, canvasPosition);
+        Card newCard = Instantiate(cardPrefab, cardSpawnPos);
         newCard.InitCard(cardList[Random.Range(0, cardList.Count)]);
     }
 
     public void InstantiateCard(CardData cardData)
     {
-        Card newCard = Instantiate(cardPrefab, canvasPosition);
+        Card newCard = Instantiate(cardPrefab, cardSpawnPos);
         newCard.InitCard(cardData);
     }
 }
