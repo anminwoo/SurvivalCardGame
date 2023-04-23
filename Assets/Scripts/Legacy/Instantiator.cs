@@ -8,6 +8,11 @@ public class Instantiator : MonoBehaviour
 {
     public Dictionary<string, CardData> cardDictionary = new Dictionary<string, CardData>();
     public Dictionary<string, CardPack> cardPackDictionary = new Dictionary<string, CardPack>();
+
+    public List<CardData> cardDataList;
+    public List<CardPack> cardPacks;
+
+
     [Tooltip("Spawnable cards in this game")]
     public List<CardData> spawnableCardList;
 
@@ -29,11 +34,42 @@ public class Instantiator : MonoBehaviour
 
     public void RemoveCard(CardData cardData)
     {
-        cardDictionary.Remove(cardData.cardName);
         spawnableCardList?.Remove(cardData);
     }
 
-    public void InitCardList()
+    public void AddCardPack(CardPack cardPack)
+    {
+        foreach (var card in cardPack.cardPack)
+        {
+            AddCard(card);
+        }
+    }
+
+    public void RemoveCardPack(CardPack cardPack)
+    {
+        foreach (var card in cardPack.cardPack)
+        {
+            RemoveCard(card);
+        }
+    }
+
+    public void InitCardDictionary()
+    {
+        foreach (var cardData in cardDataList)
+        {
+            cardDictionary.TryAdd(cardData.cardName, cardData);
+        }
+    }
+
+    public void InitCardPackDictionary()
+    {
+        foreach (var cardPack in cardPacks)
+        {
+            cardPackDictionary.TryAdd(cardPack.cardPackName, cardPack);
+        }
+    }
+
+    public void InitSpawnableCardList()
     {
         spawnableCardList.Clear();
     }
