@@ -12,7 +12,7 @@ public class Card : MonoBehaviour
     public TextMeshProUGUI dialogue;
     public string leftDialogue;
     public string rightDialogue;
-
+    
     public UnityEvent leftSwipeEvent;
     public UnityEvent rightSwipeEvent;
 
@@ -65,5 +65,10 @@ public class Card : MonoBehaviour
     public void InstantiateCard(CardData cardData)
     {
         GameManager.instance.instantiator.InstantiateCard(cardData);
+    }
+
+    public void ExitGame()
+    {
+        GameManager.instance.ExitGame();
     }
 }

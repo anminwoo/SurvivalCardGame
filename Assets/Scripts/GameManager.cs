@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
         }
         
         instantiator.InitCardList();
+        instantiator.
     }
 
     public void ChangeStatValue(PlayerStat stat, int value)
@@ -55,6 +56,15 @@ public class GameManager : MonoBehaviour
     public void MoveNextDay()
     {
         uiManager.ChangeDayText(++day);
+    }
+
+    public void ExitGame()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
     }
 }
 
