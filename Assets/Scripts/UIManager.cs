@@ -6,6 +6,8 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI dayText;
+    public TextMeshProUGUI explanationText;
+    public TextMeshProUGUI cardNameText;
 
     public Bar[] stateBars;
     
