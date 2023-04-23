@@ -9,8 +9,6 @@ using UnityEngine.UI;
 public class Card : MonoBehaviour
 {
     public Image cardCharacterImage;
-    public TextMeshProUGUI characterName;
-    public TextMeshProUGUI explanation;
     public TextMeshProUGUI dialogue;
     public string leftDialogue;
     public string rightDialogue;
@@ -26,11 +24,10 @@ public class Card : MonoBehaviour
     public void InitCard(CardData cardData)
     {
         cardCharacterImage = cardData.characterImage;
-        characterName.text = cardData.characterName;
-        explanation.text = cardData.explanation;
+        GameManager.instance.uiManager.cardNameText.text = cardData.characterName;
         leftDialogue = cardData.leftDialogue;
         rightDialogue = cardData.rightDialogue;
-
+        GameManager.instance.uiManager.explanationText.text = cardData.explanation;
         leftSwipeEvent = cardData.leftSwipeEvent;
         rightSwipeEvent = cardData.rightSwipeEvent;
     }
