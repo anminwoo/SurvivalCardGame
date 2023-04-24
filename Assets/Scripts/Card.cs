@@ -67,6 +67,11 @@ public class Card : MonoBehaviour
         GameManager.instance.instantiator.InstantiateCard(cardData);
     }
 
+    public void StartGame()
+    {
+        GameManager.instance.StartGame();
+    }
+
     public void ExitGame()
     {
         GameManager.instance.ExitGame();
