@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     public Instantiator instantiator;
 
+    public CardData startCard;
+    
     public int day;
 
     private void Awake()
@@ -26,7 +28,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        instantiator.InstantiateCard();
+        instantiator.InstantiateCard(startCard);
     }
 
     public void StartGame()
@@ -43,7 +45,9 @@ public class GameManager : MonoBehaviour
         instantiator.InitCardDictionary();
         instantiator.InitCardPackDictionary();
         
+        instantiator.AddCardPack(instantiator.cardPackDictionary["TestCardPack"]);
         
+        instantiator.InstantiateCard();
     }
 
     public void ChangeStatValue(PlayerStat stat, int value)
