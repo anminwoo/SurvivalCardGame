@@ -26,7 +26,11 @@ public class Instantiator : MonoBehaviour
 
     public void AddCard(CardData cardData)
     {
-        if (cardDictionary.TryAdd(cardData.cardName, cardData))
+        if (spawnableCardList.Contains(cardData))
+        {
+            Debug.LogWarning($"카드가 중복됩니다. {cardData.cardName}");
+        }
+        else
         {
             spawnableCardList.Add(cardData);
         }
@@ -34,7 +38,10 @@ public class Instantiator : MonoBehaviour
 
     public void RemoveCard(CardData cardData)
     {
-        spawnableCardList?.Remove(cardData);
+        if (!spawnableCardList.Remove(cardData))
+        {
+            Debug.LogWarning($"카드가 없습니다. {cardData.cardName}");
+        }
     }
 
     public void AddCardPack(CardPack cardPack)
