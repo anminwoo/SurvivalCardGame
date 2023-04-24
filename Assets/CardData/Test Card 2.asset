@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
-  m_Name: Test Card 1
+  m_Name: Test Card 2
   m_EditorClassIdentifier: 
-  cardName: Test Card1
-  explanation: Hp
+  cardName: Test Card2
+  explanation: Hunger
   characterImage: {fileID: 0}
   characterName: test card
   leftDialogue: Recover Hunger
@@ -47,7 +47,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
         m_TargetAssemblyTypeName: Card, Assembly-CSharp
-        m_MethodName: ChangeHpValue
+        m_MethodName: ChangeHungerValue
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -86,7 +86,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
         m_TargetAssemblyTypeName: Card, Assembly-CSharp
-        m_MethodName: ChangeHpValue
+        m_MethodName: ChangeHungerValue
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
