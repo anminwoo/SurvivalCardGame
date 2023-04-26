@@ -16,8 +16,8 @@ MonoBehaviour:
   explanation: Mental
   characterImage: {fileID: 0}
   characterName: test card
-  leftDialogue: Recover Hunger
-  rightDialogue: Damage Hunger
+  leftDialogue: Recover Mental
+  rightDialogue: Damage Mental
   leftSwipeEvent:
     m_PersistentCalls:
       m_Calls:
