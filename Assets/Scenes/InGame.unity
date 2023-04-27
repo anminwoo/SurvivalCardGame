@@ -154,12 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardDataList:
   - {fileID: 11400000, guid: dca263e2903d74e4ca87719a561f5f82, type: 2}
-  - {fileID: 11400000, guid: 2f5a5515956314f439197914169467d1, type: 2}
-  - {fileID: 11400000, guid: 2cb723ee3e39d4545bdd2f6b30bbbb35, type: 2}
-  - {fileID: 11400000, guid: c481d219cc0b3064db0e536eda3bc0eb, type: 2}
-  - {fileID: 11400000, guid: 11d68092e19c78b44b9e2050ade7cd36, type: 2}
-  cardPacks:
-  - {fileID: 11400000, guid: 9e7a82496775b704cb726a1c928a1764, type: 2}
+  cardPacks: []
   spawnableCardList: []
   cardSpawnPos: {fileID: 1984591699}
   cardPrefab: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
