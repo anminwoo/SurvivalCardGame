@@ -6,10 +6,12 @@ using Random = UnityEngine.Random;
 
 public class Instantiator : MonoBehaviour
 {
-    public Dictionary<string, CardData> cardDictionary = new Dictionary<string, CardData>();
-    public Dictionary<string, CardPack> cardPackDictionary = new Dictionary<string, CardPack>();
+    public Dictionary<string, CardData> cardDictionary = new Dictionary<string, CardData>(); // 모든 카드 정보를 가지고 있음
+    public Dictionary<string, CardPack> cardPackDictionary = new Dictionary<string, CardPack>(); // 모든 카드팩 정보를 가지고 있음
 
+    [Tooltip("사전 초기화용. 여기에 들어가있는 카드들만 나올 수 있음")]
     public List<CardData> cardDataList;
+    [Tooltip("사전 초기화용. 들어가있는 카드팩들만 나올 수 있음")]
     public List<CardPack> cardPacks;
 
 
