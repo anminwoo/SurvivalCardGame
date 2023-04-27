@@ -12,13 +12,13 @@ public class Card : MonoBehaviour
     public TextMeshProUGUI dialogue;
     public string leftDialogue;
     public string rightDialogue;
-    
+
     public UnityEvent leftSwipeEvent;
     public UnityEvent rightSwipeEvent;
 
     private void Start()
     {
-        
+
     }
 
     public void InitCard(CardData cardData)
@@ -36,12 +36,12 @@ public class Card : MonoBehaviour
     {
         GameManager.instance.MoveNextDay();
     }
-    
+
     public void ChangeHpValue(int value)
     {
         GameManager.instance.ChangeStatValue(PlayerStat.Hp, value);
     }
-    
+
     public void ChangeHungerValue(int value)
     {
         GameManager.instance.ChangeStatValue(PlayerStat.Hunger, value);
@@ -51,7 +51,7 @@ public class Card : MonoBehaviour
     {
         GameManager.instance.ChangeStatValue(PlayerStat.Thirst, value);
     }
-    
+
     public void ChangeMentalValue(int value)
     {
         GameManager.instance.ChangeStatValue(PlayerStat.Mental, value);
@@ -65,6 +65,26 @@ public class Card : MonoBehaviour
     public void InstantiateCard(CardData cardData)
     {
         GameManager.instance.instantiator.InstantiateCard(cardData);
+    }
+
+    public void AddCard(CardData cardData)
+    {
+        GameManager.instance.instantiator.AddCard(cardData);
+    }
+
+    public void RemoveCard(CardData cardData)
+    {
+        GameManager.instance.instantiator.RemoveCard(cardData);
+    }
+
+    public void AddCardPack(CardPack cardPack)
+    {
+        GameManager.instance.instantiator.AddCardPack(cardPack);
+    }
+
+    public void RemoveCardPack(CardPack cardPack)
+    {
+        GameManager.instance.instantiator.RemoveCardPack(cardPack);
     }
 
     public void StartGame()
