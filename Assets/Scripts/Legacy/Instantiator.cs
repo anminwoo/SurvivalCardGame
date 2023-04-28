@@ -82,16 +82,18 @@ public class Instantiator : MonoBehaviour
     {
         spawnableCardList.Clear();
     }
-
-    public void InstantiateCard()
+    
+    public void InstantiateRandomCard()
     {
         Card newCard = Instantiate(cardPrefab, cardSpawnPos);
-        newCard.InitCard(spawnableCardList[Random.Range(0, spawnableCardList.Count)]);
+
+        InstantiateCard(spawnableCardList[Random.Range(0, spawnableCardList.Count)]);
     }
 
     public void InstantiateCard(CardData cardData)
     {
         Card newCard = Instantiate(cardPrefab, cardSpawnPos);
-        newCard.InitCard(cardData);
+        CardData initCard = GameManager.instance.IsGameOver() ? cardSpawnPos.GetComponentInChildren<Card>().gameOverCard : cardData;
+        newCard.InitCard(initCard);
     }
 }

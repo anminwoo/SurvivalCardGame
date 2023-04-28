@@ -13,6 +13,8 @@ public class Card : MonoBehaviour
     public string leftDialogue;
     public string rightDialogue;
 
+    public CardData gameOverCard;
+
     public UnityEvent leftSwipeEvent;
     public UnityEvent rightSwipeEvent;
 
@@ -28,6 +30,7 @@ public class Card : MonoBehaviour
         leftDialogue = cardData.leftDialogue;
         rightDialogue = cardData.rightDialogue;
         GameManager.instance.uiManager.explanationText.text = cardData.explanation;
+        gameOverCard = cardData.gameOverCard;
         leftSwipeEvent = cardData.leftSwipeEvent;
         rightSwipeEvent = cardData.rightSwipeEvent;
     }
@@ -59,7 +62,7 @@ public class Card : MonoBehaviour
 
     public void InstantiateCard()
     {
-        GameManager.instance.instantiator.InstantiateCard();
+        GameManager.instance.instantiator.InstantiateRandomCard();
     }
 
     public void InstantiateCard(CardData cardData)
