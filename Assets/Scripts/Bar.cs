@@ -29,16 +29,6 @@ public class Bar : MonoBehaviour
         }
 
         adjustBarFillCoroutine = StartCoroutine(AdjustBarFill(amount));
-
-        if (Value == 0)
-        {
-            Debug.Log($"{name} is 0");
-        }
-
-        if (Value == MaxValue)
-        {
-            Debug.Log($"{name} is {MaxValue}");
-        }
     }
 
     private IEnumerator AdjustBarFill(int amount)
