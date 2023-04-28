@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
+  m_Name: Story.FightWolf
+  m_EditorClassIdentifier: 
+  cardName: FightWolf
+  explanation: You started fighting with the wolf. When the wolf rushes in you, you
+    pushed the wolf away.  You picked up a stone from the ground and threw it hard.
+    Luckily, the stone hits the wolf in the face and the wolf runs away. There were
+    scratches when you pushed the wolf, but I don't think it's that serious.
+  characterImage: {fileID: 0}
+  characterName: 
+  leftDialogue: Phew...
+  rightDialogue: Phew...
+  gameOverCard: {fileID: 0}
+  leftSwipeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  rightSwipeEvent:
+    m_PersistentCalls:
+      m_Calls: []
