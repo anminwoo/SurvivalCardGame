@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
         
         instantiator.AddCardPack(instantiator.cardPackDictionary["TestCardPack"]);
         
-        instantiator.InstantiateCard();
+        instantiator.InstantiateRandomCard();
     }
 
     public void ChangeStatValue(PlayerStat stat, int value)
@@ -63,6 +63,19 @@ public class GameManager : MonoBehaviour
     public void MoveNextDay()
     {
         uiManager.ChangeDayText(++day);
+    }
+
+    public bool IsGameOver()
+    {
+        foreach (PlayerStat stat in Enum.GetValues(typeof(PlayerStat)))
+        {
+            if (uiManager.stateBars[(int)stat].Value == 0)
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public void ExitGame()
