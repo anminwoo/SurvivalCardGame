@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -15,8 +16,13 @@ public class CardData : ScriptableObject
     public Image characterImage;
     [Tooltip("카드 이미지의 이름입니다. 중복이 가능합니다.")]
     public string characterName;
+    [TextArea]
     public string leftDialogue;
+    [TextArea]
     public string rightDialogue;
+
+    [Space, CanBeNull, Tooltip("게임 오버 시 나오게 될 카드입니다.")]
+    public CardData gameOverCard;
 
     public UnityEvent leftSwipeEvent;
     public UnityEvent rightSwipeEvent;
