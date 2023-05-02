@@ -85,9 +85,13 @@ public class Instantiator : MonoBehaviour
     
     public void InstantiateRandomCard()
     {
-        Card newCard = Instantiate(cardPrefab, cardSpawnPos);
-
         InstantiateCard(spawnableCardList[Random.Range(0, spawnableCardList.Count)]);
+    }
+
+    public void InstantiateRandomCardInCardPack(CardPack cardPack)
+    {
+        CardData randomCard = cardPack.cardPack[Random.Range(0, cardPack.cardPack.Count)];
+        InstantiateCard(randomCard);
     }
 
     public void InstantiateCard(CardData cardData)
