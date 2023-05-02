@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FindingBear
   m_EditorClassIdentifier: 
   cardName: FindingBear
-  explanation: ou saw something moving in the distance. I think... it's a bear?
+  explanation: You saw something moving in the distance. I think... it's a bear?
   characterImage: {fileID: 0}
   characterName: 
   leftDialogue: Go to the bear
