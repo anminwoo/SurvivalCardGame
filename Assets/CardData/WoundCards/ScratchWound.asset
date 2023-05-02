@@ -16,8 +16,8 @@ MonoBehaviour:
   explanation: The scratch hurts. I think you need to take action.
   characterImage: {fileID: 0}
   characterName: 
-  leftDialogue: Endure pain and treat wound
-  rightDialogue: Endure. It's gonna get better
+  leftDialogue: Treat the wound
+  rightDialogue: Take no action
   gameOverCard: {fileID: 11400000, guid: 3f80cdefbe6436148abc942c8e4f16ec, type: 2}
   leftSwipeEvent:
     m_PersistentCalls:
