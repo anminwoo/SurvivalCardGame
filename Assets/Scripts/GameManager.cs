@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
         instantiator.InitCardDictionary();
         instantiator.InitCardPackDictionary();
         
-        instantiator.AddCardPack(instantiator.cardPackDictionary["TestCardPack"]);
+        instantiator.AddCardPack(instantiator.cardPackDictionary["StandardCardPack"]);
         
         instantiator.InstantiateRandomCard();
     }
