@@ -65,6 +65,11 @@ public class Card : MonoBehaviour
         GameManager.instance.instantiator.InstantiateRandomCard();
     }
 
+    public void InstantiateRandomCardInCardPack(CardPack cardPack)
+    {
+        GameManager.instance.instantiator.InstantiateRandomCardInCardPack(cardPack);
+    }
+
     public void InstantiateCard(CardData cardData)
     {
         GameManager.instance.instantiator.InstantiateCard(cardData);
