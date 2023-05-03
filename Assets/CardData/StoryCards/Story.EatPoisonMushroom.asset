@@ -10,30 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
-  m_Name: Story.Forest
+  m_Name: Story.EatPoisonMushroom
   m_EditorClassIdentifier: 
-  cardName: Forest
-  explanation: You headed for a deeper forest.
+  cardName: EatPoisonMushroom
+  explanation: Time has passed and you feel strange. You fall down with a stomachache
+    and a headache...
   characterImage: {fileID: 0}
-  characterName: Into the forest
-  leftDialogue: To a deeper place...
-  rightDialogue: To a deeper place...
+  characterName: 
+  leftDialogue: Wake up after a day
+  rightDialogue: Wake up after a day
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
-        m_TargetAssemblyTypeName: Card, Assembly-CSharp
-        m_MethodName: AddCardPack
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f0cd204fe0afaf94aae7d2d834980e46, type: 2}
-          m_ObjectArgumentAssemblyTypeName: CardPack, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
         m_TargetAssemblyTypeName: Card, Assembly-CSharp
         m_MethodName: InstantiateCard
@@ -61,18 +50,6 @@ MonoBehaviour:
   rightSwipeEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
-        m_TargetAssemblyTypeName: Card, Assembly-CSharp
-        m_MethodName: AddCardPack
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f0cd204fe0afaf94aae7d2d834980e46, type: 2}
-          m_ObjectArgumentAssemblyTypeName: CardPack, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
         m_TargetAssemblyTypeName: Card, Assembly-CSharp
         m_MethodName: InstantiateCard

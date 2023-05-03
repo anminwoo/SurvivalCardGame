@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: Story.FightWolf
   m_EditorClassIdentifier: 
   cardName: FightWolf
-  explanation: You started fighting with the wolf. The wolf rushed to you, pushed
-    the wolf away.  You picked up a stone and threw it hard. Luckily, the stone hits
-    the wolf in the face and the wolf runs away. There were scratches when you pushed
-    the wolf, but I don't think it's that serious.
+  explanation: The wolf rushed to you, pushed the wolf away.  You picked up a stone
+    and threw it. Luckily, the stone hits the wolf in the face and the wolf runs
+    away.
   characterImage: {fileID: 0}
   characterName: 
   leftDialogue: Phew...
