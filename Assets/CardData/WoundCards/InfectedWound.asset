@@ -16,7 +16,7 @@ MonoBehaviour:
   explanation: It's a serious wound. If you don't do anything, you could lose your
     life.
   characterImage: {fileID: 0}
-  characterName: 
+  characterName: Infected Wound
   leftDialogue: Treat it
   rightDialogue: Do not anything
   gameOverCard: {fileID: 11400000, guid: 3f80cdefbe6436148abc942c8e4f16ec, type: 2}

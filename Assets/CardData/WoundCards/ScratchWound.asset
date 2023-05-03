@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: ScratchWound
   explanation: The scratch hurts. I think you need to take action.
   characterImage: {fileID: 0}
-  characterName: 
+  characterName: Scratch Wound
   leftDialogue: Treat the wound
   rightDialogue: Take no action
   gameOverCard: {fileID: 11400000, guid: 3f80cdefbe6436148abc942c8e4f16ec, type: 2}
