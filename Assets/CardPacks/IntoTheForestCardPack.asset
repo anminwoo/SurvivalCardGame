@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9377b11cfac4c0e4ab999db95e3d5f36, type: 3}
   m_Name: IntoTheForestCardPack
   m_EditorClassIdentifier: 
-  cardPackName: 
+  cardPackName: IntoTheForest
   cardPack: []
