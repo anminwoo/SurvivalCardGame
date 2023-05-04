@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
   m_Name: Trout
   m_EditorClassIdentifier: 
-  cardName: BigFish
-  explanation: 'You caught a big fish. '
+  cardName: Trout
+  explanation: 'You caught a trout. '
   characterImage: {fileID: 0}
-  characterName: Big Fish
+  characterName: Trout
   leftDialogue: Hurray!
   rightDialogue: Hurray!
   gameOverCard: {fileID: 0}
