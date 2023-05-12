@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class Card : MonoBehaviour
 {
+    public GameObject cardBack;
+    
     public Image cardCharacterImage;
     public TextMeshProUGUI dialogue;
     public string leftDialogue;
@@ -21,6 +23,21 @@ public class Card : MonoBehaviour
     private void Start()
     {
 
+    }
+
+    public IEnumerator Flip()
+    {
+        for (int i = 0; i < 180; i++)
+        {
+            transform.Rotate(Vector3.up);
+
+            if (i == 90)
+            {
+                cardBack.SetActive(false);
+            }
+            
+            yield return null;
+        }
     }
 
     public void InitCard(CardData cardData)

@@ -99,5 +99,6 @@ public class Instantiator : MonoBehaviour
         Card newCard = Instantiate(cardPrefab, cardSpawnPos);
         CardData initCard = GameManager.instance.IsGameOver() ? cardSpawnPos.GetComponentInChildren<Card>().gameOverCard : cardData;
         newCard.InitCard(initCard);
+        newCard.StartCoroutine(newCard.Flip());
     }
 }

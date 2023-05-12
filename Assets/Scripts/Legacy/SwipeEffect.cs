@@ -11,7 +11,6 @@ public class SwipeEffect : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     [SerializeField] private Image cardImage;
 
     private Vector3 initialPosition;
-    private Color initialColor;
 
     private int screenWidth;
 
@@ -54,7 +53,6 @@ public class SwipeEffect : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     public void OnBeginDrag(PointerEventData eventData)
     {
         initialPosition = transform.localPosition;
-        initialColor = cardImage.color;
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -63,7 +61,6 @@ public class SwipeEffect : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         if (distanceMoved < 0.2f * screenWidth)
         {
             transform.localPosition = initialPosition;
-            cardImage.color = initialColor;
             transform.localEulerAngles = Vector3.zero;
             card.dialogue.text = "";
         }
@@ -88,7 +85,7 @@ public class SwipeEffect : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     {
         float time = 0f;
         
-        while (cardImage.color != new Color(1, 1, 1, 0))
+        while (transform.localPosition.x < Screen.width)
         {
             time += Time.deltaTime;
             if (swipeLeft)
@@ -104,8 +101,6 @@ public class SwipeEffect : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
                         transform.localPosition.y, 0);
             }
 
-            cardImage.color = new Color(1, 1, 1, Mathf.SmoothStep(1, 0, 4 * time));
-            
             yield return null;
         }
         Destroy(gameObject);
