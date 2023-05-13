@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: InfectedWound
   m_EditorClassIdentifier: 
   cardName: InfectedWound
-  explanation: It's a serious wound. If you don't do anything, you could lose your
-    life.
+  explanation: "\uB9E4\uC6B0 \uC2EC\uAC01\uD55C \uC0C1\uCC98\uC785\uB2C8\uB2E4. \uAC00\uB9CC\uD788
+    \uB450\uBA74 \uBAA9\uC228\uC744 \uC783\uC744 \uC218\uB3C4 \uC788\uC2B5\uB2C8\uB2E4"
   characterImage: {fileID: 0}
-  characterName: Infected Wound
-  leftDialogue: Treat it
-  rightDialogue: Do not anything
+  characterName: "\uAC10\uC5FC\uB41C \uC0C1\uCC98"
+  leftDialogue: "\uCC98\uCE58\uD55C\uB2E4"
+  rightDialogue: "\uB194\uB454\uB2E4"
   gameOverCard: {fileID: 11400000, guid: 3f80cdefbe6436148abc942c8e4f16ec, type: 2}
   leftSwipeEvent:
     m_PersistentCalls:
