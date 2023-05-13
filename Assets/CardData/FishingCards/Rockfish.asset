@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
   m_Name: Rockfish
   m_EditorClassIdentifier: 
-  cardName: Rockfish
-  explanation: 'You caught a rockfish. '
+  cardName: Tilapia
+  explanation: "\uB2F9\uC2E0\uC740 \uD2F8\uB77C\uD53C\uC544\uB97C \uC7A1\uC558\uC2B5\uB2C8\uB2E4"
   characterImage: {fileID: 0}
   characterName: rockfish
-  leftDialogue: Hurray!
-  rightDialogue: Hurray!
+  leftDialogue: "\uC57C\uD638!"
+  rightDialogue: "\uC57C\uD638!"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: SmallFish
   m_EditorClassIdentifier: 
   cardName: SmallFish
-  explanation: 'You caught a small fish. '
+  explanation: "\uC791\uC740 \uBB3C\uACE0\uAE30\uB97C \uC7A1\uC558\uC2B5\uB2C8\uB2E4.
+    \uBC30\uBD80\uB974\uC9C4 \uC54A\uACA0\uC9C0\uB9CC \uC548\uBA39\uB294 \uAC83\uBCF4\uB2E8
+    \uB0AB\uC8E0"
   characterImage: {fileID: 0}
-  characterName: Small Fish
-  leftDialogue: Hurray!
-  rightDialogue: Hurray!
+  characterName: "\uC791\uC740 \uBB3C\uACE0\uAE30"
+  leftDialogue: "\uC57C\uD638!"
+  rightDialogue: "\uC57C\uD638!"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: SilverSalmon
   m_EditorClassIdentifier: 
   cardName: SilverSalmon
-  explanation: 'You caught a silver carp. '
+  explanation: "\uC740\uC5F0\uC5B4\uB97C \uC7A1\uC558\uC2B5\uB2C8\uB2E4!"
   characterImage: {fileID: 0}
-  characterName: silver carp
-  leftDialogue: Hurray!
-  rightDialogue: Hurray!
+  characterName: "\uC740\uC5F0\uC5B4"
+  leftDialogue: "\uC57C\uD638!"
+  rightDialogue: "\uC57C\uD638!"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:
@@ -29,7 +29,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 15
+          m_IntArgument: 25
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -41,7 +41,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -80,7 +80,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 15
+          m_IntArgument: 25
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

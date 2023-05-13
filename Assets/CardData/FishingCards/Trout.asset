@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Trout
   m_EditorClassIdentifier: 
   cardName: Trout
-  explanation: 'You caught a trout. '
+  explanation: "\uC1A1\uC5B4\uB97C \uC7A1\uC558\uC2B5\uB2C8\uB2E4"
   characterImage: {fileID: 0}
-  characterName: Trout
-  leftDialogue: Hurray!
-  rightDialogue: Hurray!
+  characterName: "\uC1A1\uC5B4"
+  leftDialogue: "\uC57C\uD638!"
+  rightDialogue: "\uC57C\uD638!"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

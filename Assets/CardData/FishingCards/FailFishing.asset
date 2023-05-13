@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: FailFishing
   m_EditorClassIdentifier: 
   cardName: FailFishing
-  explanation: You didn't catch anything.
+  explanation: "\uAE30\uB2E4\uB824\uBD24\uC9C0\uB9CC \uC544\uBB34\uB7F0 \uBBF8\uB3D9\uB3C4
+    \uC5C6\uC2B5\uB2C8\uB2E4."
   characterImage: {fileID: 0}
   characterName: 
-  leftDialogue: Stop fishing
-  rightDialogue: Try again
+  leftDialogue: "\uB09A\uC2DC\uB97C \uADF8\uB9CC\uD55C\uB2E4"
+  rightDialogue: "\uB2E4\uC2DC \uD55C \uBC88 \uAE30\uB2E4\uB824\uBCF8\uB2E4"
   gameOverCard: {fileID: 11400000, guid: 6168177e4c4f224429fe828d7c9bba89, type: 2}
   leftSwipeEvent:
     m_PersistentCalls:
