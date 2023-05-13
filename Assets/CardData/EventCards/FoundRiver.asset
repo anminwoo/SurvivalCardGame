@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: FoundRiver
   m_EditorClassIdentifier: 
   cardName: FoundRiver
-  explanation: You found a river. If you look closely, it looks like fish live, too.
-    Shall we take a break here?
+  explanation: "\uB2F9\uC2E0\uC740 \uAC15\uAC00\uB97C \uBC1C\uACAC\uD588\uC2B5\uB2C8\uB2E4.
+    \uC880 \uC26C\uC5C8\uB2E4 \uAC00\uB294 \uAC83\uB3C4 \uAD1C\uCC2E\uC740 \uC120\uD0DD\uC77C
+    \uAC83 \uAC19\uC2B5\uB2C8\uB2E4."
   characterImage: {fileID: 0}
-  characterName: River
-  leftDialogue: Yes. I'm tired
-  rightDialogue: No. We must move hard
+  characterName: "\uC870\uC6A9\uD55C \uAC15\uAC00"
+  leftDialogue: "\uAC15\uAC00\uC5D0\uC11C \uD734\uC2DD\uC744 \uCDE8\uD558\uACE0 \uC774\uB3D9\uD55C\uB2E4"
+  rightDialogue: "\uC880 \uB354 \uB3CC\uC544\uB2E4\uB2CC\uB2E4"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

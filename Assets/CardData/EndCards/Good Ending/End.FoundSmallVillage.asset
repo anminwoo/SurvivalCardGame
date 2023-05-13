@@ -10,14 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
-  m_Name: End.KilledByWolf
+  m_Name: End.FoundSmallVillage
   m_EditorClassIdentifier: 
-  cardName: KilledByWolf
-  explanation: You failed to escape... You was eaten by a wolf.
+  cardName: FoundSmallVillage
+  explanation: "When you went in the direction where you could see the smoke, there
+    was a small village. You survived with the help of the villagers.\uB2F9\uC2E0\uC740
+    \uC5F0\uAE30\uAC00 \uBCF4\uC774\uB294 \uACF3\uC73C\uB85C \uAC78\uC5C8\uAC14\uC2B5\uB2C8\uB2E4.
+    \uB2F9\uC2E0\uC740 \uB9C8\uC744 \uC8FC\uBBFC\uC5D0\uAC8C \uAD6C\uC870\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
   characterImage: {fileID: 0}
-  characterName: End.Killed By Wolf
-  leftDialogue: Retry?
-  rightDialogue: Quit
+  characterName: "GoodEnding0.\uB9C8\uC744"
+  leftDialogue: "\uB2E4\uC2DC?"
+  rightDialogue: "\uADF8\uB9CC\uD558\uAE30"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

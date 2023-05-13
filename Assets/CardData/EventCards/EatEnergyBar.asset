@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: EatEnergyBar
   m_EditorClassIdentifier: 
   cardName: EatEnergyBar
-  explanation: When you're hungry, anything sounds good. Should eat the energy bar
-    in your bag?
+  explanation: "\uBC30\uAC00 \uACE0\uD508 \uB2F9\uC2E0\uC740 \uAC00\uBC29\uC5D0 \uC5D0\uB108\uC9C0\uBC14\uAC00
+    \uC788\uB2E4\uB294 \uAC83\uC744 \uAE30\uC5B5\uD574\uB0C5\uB2C8\uB2E4."
   characterImage: {fileID: 0}
   characterName: 
-  leftDialogue: Eat
-  rightDialogue: Don't eat
+  leftDialogue: "\uBA39\uB294\uB2E4"
+  rightDialogue: "\uB2E4\uC74C\uC744 \uC704\uD574 \uC544\uAEF4\uB193\uB294\uB2E4"
   gameOverCard: {fileID: 11400000, guid: bf532b2d40a2b474b8c5b9f4fd4c170e, type: 2}
   leftSwipeEvent:
     m_PersistentCalls:
@@ -54,6 +54,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: RemoveCard
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000}
+          m_ObjectArgumentAssemblyTypeName: CardData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: FoundStream
   m_EditorClassIdentifier: 
   cardName: Found Steram
-  explanation: You heard the water flowing. You looked around and found a small stream.
-    It looks fresh. Can drink?
+  explanation: "\uB2F9\uC2E0\uC740 \uBB3C\uC18C\uB9AC\uB97C \uB4E4\uC5C8\uC2B5\uB2C8\uB2E4.
+    \uBB3C\uC18C\uB9AC\uAC00 \uB4E4\uB9AC\uB294 \uBC29\uD5A5\uC73C\uB85C \uAC00\uBCF4\uB2C8
+    \uC2DC\uB0C7\uBB3C\uC774 \uD750\uB974\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uAE68\uB057\uD574\uBCF4\uC785\uB2C8\uB2E4."
   characterImage: {fileID: 0}
-  characterName: Stream
-  leftDialogue: Drink
-  rightDialogue: Follow the stream
+  characterName: "\uC2DC\uB0C7\uBB3C"
+  leftDialogue: "\uB9C8\uC2E0\uB2E4"
+  rightDialogue: "\uBB3C\uC904\uAE30\uB97C \uB530\uB77C\uAC04\uB2E4"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

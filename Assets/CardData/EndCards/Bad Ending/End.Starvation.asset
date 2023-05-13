@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: End.Starvation
   m_EditorClassIdentifier: 
   cardName: Starvation
-  explanation: You fell down on the ground. You don't have the strength to get back
-    up...
+  explanation: "\uB354 \uC774\uC0C1 \uC77C\uC5B4\uB0A0 \uD798\uC774 \uC5C6\uC2B5\uB2C8\uB2E4.
+    \uB2F9\uC2E0\uC740 \uAE34 \uC7A0\uC5D0 \uBE60\uC84C\uC2B5\uB2C8\uB2E4..."
   characterImage: {fileID: 0}
-  characterName: End.Starvation
-  leftDialogue: Retry?
-  rightDialogue: Quit
+  characterName: "BadEnding5.\uAD76\uC8FC\uB9BC"
+  leftDialogue: "\uB2E4\uC2DC?"
+  rightDialogue: "\uADF8\uB9CC\uD558\uAE30"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

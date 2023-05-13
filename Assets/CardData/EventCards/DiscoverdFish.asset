@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: DiscoverdFish
   m_EditorClassIdentifier: 
   cardName: DiscoverdFish
-  explanation: You discovered a river with fish in it. If you're hungry, catching
-    some fish might not be a bad option.
+  explanation: "\uB2F9\uC2E0\uC740 \uAC15\uC5D0 \uB3C4\uCC29\uD558\uC600\uC2B5\uB2C8\uB2E4.
+    \uAC15\uC5D0 \uBB3C\uACE0\uAE30\uAC00 \uD5E4\uC5C4\uCE58\uACE0 \uC788\uC2B5\uB2C8\uB2E4.
+    \uBC30\uACE0\uD504\uB2E4\uBA74 \uD55C \uBC88 \uC7A1\uC544\uBCF4\uB294 \uAC83\uB3C4
+    \uC88B\uC744 \uAC83 \uAC19\uC740\uB370\uC694?"
   characterImage: {fileID: 0}
   characterName: 
-  leftDialogue: Catch some fish
-  rightDialogue: Cross the river
+  leftDialogue: "\uB09A\uC2DC\uD55C\uB2E4"
+  rightDialogue: "\uAC15\uC744 \uAC74\uB10C\uB2E4"
   gameOverCard: {fileID: 11400000, guid: 6168177e4c4f224429fe828d7c9bba89, type: 2}
   leftSwipeEvent:
     m_PersistentCalls:

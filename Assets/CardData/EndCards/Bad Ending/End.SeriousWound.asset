@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: End.SeriousWound
   m_EditorClassIdentifier: 
   cardName: SeriousWound
-  explanation: You died of a serious wound.
+  explanation: "\uB2F9\uC2E0\uC740 \uC2EC\uAC01\uD55C \uC0C1\uCC98\uB85C \uC778\uD574
+    \uC4F0\uB7EC\uC84C\uC2B5\uB2C8\uB2E4..."
   characterImage: {fileID: 0}
-  characterName: End.Serious Wound
-  leftDialogue: Retry?
-  rightDialogue: Quit
+  characterName: "BadEnding4.\uC2EC\uAC01\uD55C \uC0C1\uCC98"
+  leftDialogue: "\uB2E4\uC2DC?"
+  rightDialogue: "\uADF8\uB9CC\uD558\uAE30"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

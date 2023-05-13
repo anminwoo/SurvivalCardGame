@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
-  m_Name: End.Dead
+  m_Name: End.KilledByWolf
   m_EditorClassIdentifier: 
-  cardName: Dead
-  explanation: Died for unknown reasons.
+  cardName: KilledByWolf
+  explanation: "\uB2F9\uC2E0\uC740 \uB291\uB300\uC5D0\uAC8C \uBB3C\uC5B4\uB72F\uACBC\uC2B5\uB2C8\uB2E4..."
   characterImage: {fileID: 0}
-  characterName: Dead
+  characterName: "BadEnding1.\uB291\uB300"
   leftDialogue: Retry?
   rightDialogue: Quit
   gameOverCard: {fileID: 0}

@@ -13,11 +13,14 @@ MonoBehaviour:
   m_Name: FoundSmoke
   m_EditorClassIdentifier: 
   cardName: FoundSmoke
-  explanation: You found a smoke rising faintly. Is there a village?
+  explanation: "\uC800 \uBA40\uB9AC \uD76C\uBBF8\uD558\uAC8C \uC5F0\uAE30\uAC00 \uD53C\uC5B4\uC624\uB974\uB294
+    \uAC83\uC774 \uBCF4\uC785\uB2C8\uB2E4. \uD639\uC2DC \uB9C8\uC744\uC774 \uC788\uB294
+    \uAC78\uAE4C\uC694?"
   characterImage: {fileID: 0}
   characterName: 
-  leftDialogue: Go in the direction of the smoke
-  rightDialogue: Go in the direction of the smoke
+  leftDialogue: "\uC5F0\uAE30\uAC00 \uBCF4\uC774\uB294 \uBC29\uD5A5\uC73C\uB85C \uAC00\uBCF8\uB2E4"
+  rightDialogue: "\uC5F0\uAE30\uAC00 \uBCF4\uC774\uB294 \uBC29\uD5A5\uC73C\uB85C
+    \uAC00\uBCF8\uB2E4"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

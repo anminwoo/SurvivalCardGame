@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
-  m_Name: End.FoundSmallVillage
+  m_Name: End.PoisonMushroom
   m_EditorClassIdentifier: 
-  cardName: FoundSmallVillage
-  explanation: When you went in the direction where you could see the smoke, there
-    was a small village. You survived with the help of the villagers.
+  cardName: PoisonMushroom
+  explanation: "\uC2DC\uAC04\uC774 \uC9C0\uB098\uACE0 \uB2F9\uC2E0\uC740 \uC2EC\uAC01\uD55C
+    \uB450\uD1B5\uACFC \uBCF5\uD1B5\uC5D0 \uC4F0\uB7EC\uC84C\uC2B5\uB2C8\uB2E4..."
   characterImage: {fileID: 0}
-  characterName: GoodEnding0.FoundVillage
-  leftDialogue: Retry?
-  rightDialogue: Quit
+  characterName: "BadEnding3.\uC911\uB3C5"
+  leftDialogue: "\uB2E4\uC2DC?"
+  rightDialogue: "\uADF8\uB9CC\uD558\uAE30"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:
