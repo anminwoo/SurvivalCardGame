@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: Story.FightWolf
   m_EditorClassIdentifier: 
   cardName: FightWolf
-  explanation: The wolf rushed to you, pushed the wolf away.  You picked up a stone
-    and threw it. Luckily, the stone hits the wolf in the face and the wolf runs
-    away.
+  explanation: "\uB291\uB300\uAC00 \uC815\uBA74\uC73C\uB85C \uB2EC\uB824\uB4E4\uC5C8\uACE0
+    \uB2F9\uC2E0\uC740 \uC606\uC73C\uB85C \uBAB8\uC744 \uB3CC\uB838\uC9C0\uB9CC \uBC1C\uD1B1\uC5D0
+    \uAE01\uD614\uC2B5\uB2C8\uB2E4.  \uBC14\uB2E5\uC5D0 \uC788\uB358 \uD070 \uB3CC\uC744
+    \uC8FC\uC6CC \uB291\uB300\uC5D0\uAC8C \uB358\uC9D1\uB2C8\uB2E4. \uC6B4 \uC88B\uAC8C\uB3C4
+    \uB291\uB300\uC758 \uC5BC\uAD74\uC5D0 \uC815\uD655\uD788 \uBA85\uC911\uD588\uACE0
+    \uB291\uB300\uB294 \uB3C4\uB9DD\uCE69\uB2C8\uB2E4."
   characterImage: {fileID: 0}
   characterName: 
-  leftDialogue: Phew...
-  rightDialogue: Phew...
+  leftDialogue: "\uD734..."
+  rightDialogue: "\uD734..."
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

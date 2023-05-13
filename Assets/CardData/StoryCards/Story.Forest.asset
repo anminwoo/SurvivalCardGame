@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Story.Forest
   m_EditorClassIdentifier: 
   cardName: Forest
-  explanation: You headed for a deeper forest.
+  explanation: "\uB2F9\uC2E0\uC740 \uB354 \uAE4A\uC740 \uC232\uC18D\uC73C\uB85C \uD5A5\uD569\uB2C8\uB2E4..."
   characterImage: {fileID: 0}
-  characterName: Into the forest
-  leftDialogue: To a deeper place...
-  rightDialogue: To a deeper place...
+  characterName: "\uB354 \uAE4A\uC740 \uC232\uC18D\uC73C\uB85C"
+  leftDialogue: "\uB354 \uAE4A\uC740 \uC232\uC18D\uC73C\uB85C..."
+  rightDialogue: "\uB354 \uAE4A\uC740 \uC232\uC18D\uC73C\uB85C..."
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:
