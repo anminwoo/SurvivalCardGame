@@ -16,8 +16,8 @@ MonoBehaviour:
   explanation: "\uB2F9\uC2E0\uC740 \uB291\uB300\uC5D0\uAC8C \uBB3C\uC5B4\uB72F\uACBC\uC2B5\uB2C8\uB2E4..."
   characterImage: {fileID: 0}
   characterName: "BadEnding1.\uB291\uB300"
-  leftDialogue: Retry?
-  rightDialogue: Quit
+  leftDialogue: "\uB2E4\uC2DC?"
+  rightDialogue: "\uADF8\uB9CC\uD558\uAE30"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:
