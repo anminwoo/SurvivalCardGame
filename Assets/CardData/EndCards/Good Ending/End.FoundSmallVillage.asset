@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: End.FoundSmallVillage
   m_EditorClassIdentifier: 
   cardName: FoundSmallVillage
-  explanation: "When you went in the direction where you could see the smoke, there
-    was a small village. You survived with the help of the villagers.\uB2F9\uC2E0\uC740
-    \uC5F0\uAE30\uAC00 \uBCF4\uC774\uB294 \uACF3\uC73C\uB85C \uAC78\uC5C8\uAC14\uC2B5\uB2C8\uB2E4.
-    \uB2F9\uC2E0\uC740 \uB9C8\uC744 \uC8FC\uBBFC\uC5D0\uAC8C \uAD6C\uC870\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+  explanation: "\uB2F9\uC2E0\uC740 \uC5F0\uAE30\uAC00 \uBCF4\uC774\uB294 \uACF3\uC73C\uB85C
+    \uAC78\uC5C8\uAC14\uC2B5\uB2C8\uB2E4. \uB2F9\uC2E0\uC740 \uB9C8\uC744 \uC8FC\uBBFC\uC5D0\uAC8C
+    \uAD6C\uC870\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
   characterImage: {fileID: 0}
   characterName: "GoodEnding0.\uB9C8\uC744"
   leftDialogue: "\uB2E4\uC2DC?"

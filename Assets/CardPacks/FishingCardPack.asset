@@ -13,4 +13,11 @@ MonoBehaviour:
   m_Name: FishingCardPack
   m_EditorClassIdentifier: 
   cardPackName: FishingCardPack
-  cardPack: []
+  cardPack:
+  - {fileID: 11400000, guid: 020dd5437cd9bdc4ebc52109b698a5ad, type: 2}
+  - {fileID: 11400000, guid: 7cee3499df354b143bd6c9c5b8020114, type: 2}
+  - {fileID: 11400000, guid: c026c458b43771a478b3a9c73e02c2b7, type: 2}
+  - {fileID: 11400000, guid: 6bd6da8b01fe51b4fac63e91de14009b, type: 2}
+  - {fileID: 11400000, guid: b5d3451aba3ead047a2f6fd8d1fb5c34, type: 2}
+  - {fileID: 11400000, guid: e54b870a9477ac3468c618a880b1271f, type: 2}
+  - {fileID: 11400000, guid: eac1f27006de1da40962d10a19d177ae, type: 2}

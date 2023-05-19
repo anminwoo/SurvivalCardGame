@@ -152,8 +152,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5f927b3c24608f41b31cb799ccd9159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardDataList: []
+  cardDataList:
+  - {fileID: 11400000, guid: be4f57e5067ff0345b16f1d0cd871c96, type: 2}
+  - {fileID: 11400000, guid: 6168177e4c4f224429fe828d7c9bba89, type: 2}
+  - {fileID: 11400000, guid: d30f73d26d4c48e429e578b87d366a71, type: 2}
+  - {fileID: 11400000, guid: 073256b5d61ec134d956c4885d7ff151, type: 2}
+  - {fileID: 11400000, guid: 885150c6956aee9468fccedf4cd0b27c, type: 2}
+  - {fileID: 11400000, guid: 3f80cdefbe6436148abc942c8e4f16ec, type: 2}
+  - {fileID: 11400000, guid: bf532b2d40a2b474b8c5b9f4fd4c170e, type: 2}
+  - {fileID: 11400000, guid: d96d9506d1970e9449d6c6a22a53efa1, type: 2}
+  - {fileID: 11400000, guid: f5a0afc3682928d42b694e0ff9e01516, type: 2}
+  - {fileID: 11400000, guid: 526d14e289510ab4a980d13525b16ba3, type: 2}
+  - {fileID: 11400000, guid: eb9e337bcdb761047be01a8ec1c39732, type: 2}
+  - {fileID: 11400000, guid: e0c3b70f080700a44a12bb07a6dace41, type: 2}
+  - {fileID: 11400000, guid: 35c5abbda52580044b371c9812e27a67, type: 2}
+  - {fileID: 11400000, guid: e659c36a510152f42889eec942e7501e, type: 2}
+  - {fileID: 11400000, guid: f26c4f8516dcfce4395c6fce89d9eda3, type: 2}
+  - {fileID: 11400000, guid: f244007ca4f0ea145bc672ae8f44bebb, type: 2}
+  - {fileID: 11400000, guid: 0a750f5321d6e2443bdd14a38f59f04a, type: 2}
+  - {fileID: 11400000, guid: 4a5f1611b89f6234a9d1242cb1014a63, type: 2}
+  - {fileID: 11400000, guid: 8391e2239304a5f4e838ccb608f7b98b, type: 2}
+  - {fileID: 11400000, guid: 020dd5437cd9bdc4ebc52109b698a5ad, type: 2}
+  - {fileID: 11400000, guid: 7cee3499df354b143bd6c9c5b8020114, type: 2}
+  - {fileID: 11400000, guid: c026c458b43771a478b3a9c73e02c2b7, type: 2}
+  - {fileID: 11400000, guid: 6bd6da8b01fe51b4fac63e91de14009b, type: 2}
+  - {fileID: 11400000, guid: b5d3451aba3ead047a2f6fd8d1fb5c34, type: 2}
+  - {fileID: 11400000, guid: e54b870a9477ac3468c618a880b1271f, type: 2}
+  - {fileID: 11400000, guid: eac1f27006de1da40962d10a19d177ae, type: 2}
+  - {fileID: 11400000, guid: 06dd5ce85404fac489607ac33e037fd1, type: 2}
+  - {fileID: 11400000, guid: 626b36d86afe6e04bbddf99280bbc3dc, type: 2}
+  - {fileID: 11400000, guid: 90555a5aabc1c234db9562d030435e54, type: 2}
+  - {fileID: 11400000, guid: 53af14d0886c9ab4db7fc308d030b8ed, type: 2}
+  - {fileID: 11400000, guid: 008a2e04a159fc345b0544a74ae01888, type: 2}
+  - {fileID: 11400000, guid: 6f6749acf92021048811abe03ddc6334, type: 2}
+  - {fileID: 11400000, guid: 5690d8bea3a0fab488fef7b2d6441a8c, type: 2}
+  - {fileID: 11400000, guid: f5217ed33d4696c4e8e2b6c9fb31b696, type: 2}
+  - {fileID: 11400000, guid: cf0befe99c719234c99f27045a3b8881, type: 2}
+  - {fileID: 11400000, guid: 16cfede6d39d81644b8a473b96e97e55, type: 2}
+  - {fileID: 11400000, guid: faf573484fec0c64cbc81f2b662d27e2, type: 2}
+  - {fileID: 11400000, guid: 5dad93745671dbe45ac5ec530eefda15, type: 2}
+  - {fileID: 11400000, guid: b9d1bc518dc58f34f8b9230f85ee9046, type: 2}
+  - {fileID: 11400000, guid: 782063c86aee7a94a9a31064226abc78, type: 2}
+  - {fileID: 11400000, guid: b306db8d1ccbb814fa7ec25396535980, type: 2}
+  - {fileID: 11400000, guid: ef53b9f4dd157574b923f2fc81859ca3, type: 2}
+  - {fileID: 11400000, guid: 6d6e648b40ffae944ae276b508a9a8b0, type: 2}
+  - {fileID: 11400000, guid: 400895b680e53fa4ca9480ce5af4df7f, type: 2}
+  - {fileID: 11400000, guid: 14b676430cacc884f9ed6959e4e0e90c, type: 2}
+  - {fileID: 11400000, guid: fd823cb971ec6414ea4cbca0cd4ae084, type: 2}
+  - {fileID: 11400000, guid: b14c33b4a761ccd4c8ca4fde761dd314, type: 2}
+  - {fileID: 11400000, guid: 4b585ada8425ede43a65dec21f1989b8, type: 2}
   cardPacks:
+  - {fileID: 11400000, guid: 11b760e12ea5da94380c4ccc35f96b49, type: 2}
+  - {fileID: 11400000, guid: f0cd204fe0afaf94aae7d2d834980e46, type: 2}
   - {fileID: 11400000, guid: 856880d48aa2e6f47a34a69c962f093d, type: 2}
   - {fileID: 11400000, guid: a461cf24b419c184890459830c39b9c2, type: 2}
   spawnableCardList: []
@@ -584,7 +634,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

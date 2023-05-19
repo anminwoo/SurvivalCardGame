@@ -12,16 +12,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
   m_Name: Bear
   m_EditorClassIdentifier: 
-  cardName: 
-  explanation: 
+  cardName: Bear
+  explanation: "\uC800 \uC55E\uC5D0 \uACF0\uC774 \uBCF4\uC785\uB2C8\uB2E4. \uACF0\uB3C4
+    \uB2F9\uC2E0\uC774 \uC788\uB2E4\uB294 \uAC83\uC744 \uC54C\uACE0\uC788\uC2B5\uB2C8\uB2E4."
   characterImage: {fileID: 0}
-  characterName: 
-  leftDialogue: 
-  rightDialogue: 
+  characterName: Bear
+  leftDialogue: "\uCC9C\uCC9C\uD788 \uB4B7\uAC78\uC74C\uC9C8\uB85C \uB3C4\uB9DD\uCE5C\uB2E4"
+  rightDialogue: "\uB098\uBB34 \uC704\uB85C \uC62C\uB77C\uAC04\uB2E4"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: InstantiateCard
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 4a5f1611b89f6234a9d1242cb1014a63, type: 2}
+          m_ObjectArgumentAssemblyTypeName: CardData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   rightSwipeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: InstantiateCard
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: be4f57e5067ff0345b16f1d0cd871c96, type: 2}
+          m_ObjectArgumentAssemblyTypeName: CardData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

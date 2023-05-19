@@ -15,3 +15,8 @@ MonoBehaviour:
   cardPackName: StandardCardPack
   cardPack:
   - {fileID: 11400000, guid: 8391e2239304a5f4e838ccb608f7b98b, type: 2}
+  - {fileID: 11400000, guid: 526d14e289510ab4a980d13525b16ba3, type: 2}
+  - {fileID: 11400000, guid: eb9e337bcdb761047be01a8ec1c39732, type: 2}
+  - {fileID: 11400000, guid: e0c3b70f080700a44a12bb07a6dace41, type: 2}
+  - {fileID: 11400000, guid: e659c36a510152f42889eec942e7501e, type: 2}
+  - {fileID: 11400000, guid: f244007ca4f0ea145bc672ae8f44bebb, type: 2}

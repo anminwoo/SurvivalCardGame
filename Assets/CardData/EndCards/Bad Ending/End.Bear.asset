@@ -12,16 +12,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
   m_Name: End.Bear
   m_EditorClassIdentifier: 
-  cardName: 
-  explanation: 
-  characterImage: {fileID: 0}
-  characterName: 
-  leftDialogue: 
-  rightDialogue: 
+  cardName: Bear
+  explanation: "\uACF0\uC740 \uB2F9\uC2E0\uC744 \uCAD2\uC544 \uBE60\uB974\uAC8C \uB2EC\uB824\uC654\uC2B5\uB2C8\uB2E4.
+    \uACF0\uC758 \uACF5\uACA9\uC73C\uB85C \uB2F9\uC2E0\uC740 \uCE58\uBA85\uC0C1\uC744
+    \uC785\uC5B4 \uC8FD\uC5C8\uC2B5\uB2C8\uB2E4..."
+  characterImage: {fileID: 21300000, guid: 4cc5dd8427a692e42a44dac8d2b3c546, type: 3}
+  characterName: "BadEnding5.\uACF0"
+  leftDialogue: "\uB2E4\uC2DC?"
+  rightDialogue: "\uADF8\uB9CC\uD558\uAE30"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   rightSwipeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

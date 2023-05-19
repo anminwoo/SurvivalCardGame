@@ -9,8 +9,10 @@ using UnityEngine.UI;
 public class Card : MonoBehaviour
 {
     public GameObject cardBack;
+    [SerializeField] private Image image;
     
-    public Image cardCharacterImage;
+    
+    public Sprite cardCharacterImage;
     public TextMeshProUGUI dialogue;
     public string leftDialogue;
     public string rightDialogue;
@@ -43,6 +45,8 @@ public class Card : MonoBehaviour
     public void InitCard(CardData cardData)
     {
         cardCharacterImage = cardData.characterImage;
+        image.sprite = cardCharacterImage;
+        
         GameManager.instance.uiManager.cardNameText.text = cardData.characterName;
         leftDialogue = cardData.leftDialogue;
         rightDialogue = cardData.rightDialogue;

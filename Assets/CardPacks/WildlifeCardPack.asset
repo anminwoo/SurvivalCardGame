@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardPackName: WildlifeCardPack
   cardPack:
-  - {fileID: 11400000, guid: 6d6e648b40ffae944ae276b508a9a8b0, type: 2}
+  - {fileID: 11400000, guid: 782063c86aee7a94a9a31064226abc78, type: 2}
   - {fileID: 11400000, guid: b306db8d1ccbb814fa7ec25396535980, type: 2}
   - {fileID: 11400000, guid: ef53b9f4dd157574b923f2fc81859ca3, type: 2}
+  - {fileID: 11400000, guid: 6d6e648b40ffae944ae276b508a9a8b0, type: 2}

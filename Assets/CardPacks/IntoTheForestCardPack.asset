@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: IntoTheForestCardPack
   m_EditorClassIdentifier: 
   cardPackName: IntoTheForest
-  cardPack: []
+  cardPack:
+  - {fileID: 11400000, guid: 06dd5ce85404fac489607ac33e037fd1, type: 2}
+  - {fileID: 11400000, guid: 626b36d86afe6e04bbddf99280bbc3dc, type: 2}
+  - {fileID: 11400000, guid: 90555a5aabc1c234db9562d030435e54, type: 2}
+  - {fileID: 11400000, guid: 53af14d0886c9ab4db7fc308d030b8ed, type: 2}

@@ -13,7 +13,7 @@ public class CardData : ScriptableObject
     
     [TextArea]
     public string explanation;
-    public Image characterImage;
+    public Sprite characterImage;
     [Tooltip("카드 이미지의 이름입니다. 중복이 가능합니다.")]
     public string characterName;
     [TextArea]
