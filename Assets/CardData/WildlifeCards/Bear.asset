@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Bear
   explanation: "\uC800 \uC55E\uC5D0 \uACF0\uC774 \uBCF4\uC785\uB2C8\uB2E4. \uACF0\uB3C4
     \uB2F9\uC2E0\uC774 \uC788\uB2E4\uB294 \uAC83\uC744 \uC54C\uACE0\uC788\uC2B5\uB2C8\uB2E4."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 4cc5dd8427a692e42a44dac8d2b3c546, type: 3}
   characterName: Bear
   leftDialogue: "\uCC9C\uCC9C\uD788 \uB4B7\uAC78\uC74C\uC9C8\uB85C \uB3C4\uB9DD\uCE5C\uB2E4"
   rightDialogue: "\uB098\uBB34 \uC704\uB85C \uC62C\uB77C\uAC04\uB2E4"
