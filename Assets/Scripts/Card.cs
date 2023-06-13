@@ -53,7 +53,9 @@ public class Card : MonoBehaviour
         GameManager.instance.uiManager.explanationText.text = cardData.explanation;
         gameOverCard = cardData.gameOverCard;
         leftSwipeEvent = cardData.leftSwipeEvent;
+        leftSwipeEvent.AddListener(DeleteCard);
         rightSwipeEvent = cardData.rightSwipeEvent;
+        rightSwipeEvent.AddListener(DeleteCard);
     }
 
     public void MoveNextDay()
@@ -114,6 +116,11 @@ public class Card : MonoBehaviour
     public void RemoveCardPack(CardPack cardPack)
     {
         GameManager.instance.instantiator.RemoveCardPack(cardPack);
+    }
+
+    private void DeleteCard()
+    {
+        Destroy(gameObject);
     }
 
     public void StartGame()
