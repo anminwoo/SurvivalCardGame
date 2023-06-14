@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: SeriousWound
   explanation: "\uB2F9\uC2E0\uC740 \uC2EC\uAC01\uD55C \uC0C1\uCC98\uB85C \uC778\uD574
     \uC4F0\uB7EC\uC84C\uC2B5\uB2C8\uB2E4..."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 03b3bec0bc34f284eab32d7d1a5557c6, type: 3}
   characterName: "BadEnding4.\uC2EC\uAC01\uD55C \uC0C1\uCC98"
   leftDialogue: "\uB2E4\uC2DC?"
   rightDialogue: "\uADF8\uB9CC\uD558\uAE30"

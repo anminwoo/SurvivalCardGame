@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: Eel
   explanation: "\uAE34 \uBBFC\uBB3C\uC7A5\uC5B4\uB97C \uC7A1\uC558\uC2B5\uB2C8\uB2E4."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: d3aed4f4d50b6c445af8784e5e03d25c, type: 3}
   characterName: "\uBBFC\uBB3C \uC7A5\uC5B4"
   leftDialogue: "\uC57C\uD638!"
   rightDialogue: "\uC57C\uD638!"

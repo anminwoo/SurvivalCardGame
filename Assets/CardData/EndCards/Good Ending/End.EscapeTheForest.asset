@@ -12,16 +12,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
   m_Name: End.EscapeTheForest
   m_EditorClassIdentifier: 
-  cardName: EscapeTheMountain
-  explanation: "\uB2F9\uC2E0\uC740 \uC0B0\uC5D0\uC11C \uB098\uC654\uC2B5\uB2C8\uB2E4. "
+  cardName: EscapeTheForest
+  explanation: "\uB2F9\uC2E0\uC740 \uC232\uC744 \uD0C8\uCD9C\uD588\uC2B5\uB2C8\uB2E4."
   characterImage: {fileID: 0}
-  characterName: 
-  leftDialogue: 
-  rightDialogue: 
+  characterName: "GoodEnding2.\uD0C8\uCD9C"
+  leftDialogue: "\uB2E4\uC2DC?"
+  rightDialogue: "\uADF8\uB9CC\uD558\uAE30"
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   rightSwipeEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: ExitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

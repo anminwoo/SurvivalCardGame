@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: BigFish
   explanation: "\uC6D4\uCC99\uC785\uB2C8\uB2E4! \uBB34\uC2A8 \uC885\uC778\uC9C4 \uBAA8\uB974\uACA0\uC9C0\uB9CC
     \uBA39\uC744 \uC218\uB9CC \uC788\uB2E4\uBA74 \uC0C1\uAD00\uC5C6\uC8E0!"
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 78cdc2961655c034298ee2c3d8fcbb27, type: 3}
   characterName: "\uD070 \uBB3C\uACE0\uAE30"
   leftDialogue: "\uC57C\uD638!"
   rightDialogue: "\uC57C\uD638!"

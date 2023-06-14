@@ -16,7 +16,7 @@ MonoBehaviour:
   explanation: "\uB2F9\uC2E0\uC740 \uC5F0\uAE30\uAC00 \uBCF4\uC774\uB294 \uACF3\uC73C\uB85C
     \uAC78\uC5C8\uAC14\uC2B5\uB2C8\uB2E4. \uB2F9\uC2E0\uC740 \uB9C8\uC744 \uC8FC\uBBFC\uC5D0\uAC8C
     \uAD6C\uC870\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 5821b2db52dcc0d4baa9b496fa0ec4f8, type: 3}
   characterName: "GoodEnding0.\uB9C8\uC744"
   leftDialogue: "\uB2E4\uC2DC?"
   rightDialogue: "\uADF8\uB9CC\uD558\uAE30"

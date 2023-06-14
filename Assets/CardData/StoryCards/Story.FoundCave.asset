@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: FoundCave
   explanation: "\uB2F9\uC2E0\uC740 \uB3D9\uAD74\uC744 \uCC3E\uC558\uC2B5\uB2C8\uB2E4.
     \uBE44\uB97C \uD53C\uD574 \uB4E4\uC5B4\uAC00 \uB2E4\uC2DC \uC7A0\uC744 \uC7A1\uB2C8\uB2E4"
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: e6f70183cecf1e847b6cdac722c2b584, type: 3}
   characterName: 
   leftDialogue: ZZZ...
   rightDialogue: ZZZ...

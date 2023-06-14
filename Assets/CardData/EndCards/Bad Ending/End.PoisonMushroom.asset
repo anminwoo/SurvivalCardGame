@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: PoisonMushroom
   explanation: "\uC2DC\uAC04\uC774 \uC9C0\uB098\uACE0 \uB2F9\uC2E0\uC740 \uC2EC\uAC01\uD55C
     \uB450\uD1B5\uACFC \uBCF5\uD1B5\uC5D0 \uC4F0\uB7EC\uC84C\uC2B5\uB2C8\uB2E4..."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: e739006c74b731e4ea3871e5e02021bf, type: 3}
   characterName: "BadEnding3.\uC911\uB3C5"
   leftDialogue: "\uB2E4\uC2DC?"
   rightDialogue: "\uADF8\uB9CC\uD558\uAE30"

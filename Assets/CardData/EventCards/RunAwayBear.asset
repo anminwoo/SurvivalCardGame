@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: RunAwayBear
   explanation: "\uB2F9\uC2E0\uC740 \uC548\uC804\uD558\uAC8C \uACF0\uC5D0\uAC8C\uC11C
     \uBA40\uC5B4\uC84C\uC2B5\uB2C8\uB2E4"
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: f9b9b517ba817664e8364ca7adbea942, type: 3}
   characterName: 
   leftDialogue: "\uD734..."
   rightDialogue: "\uB2E4\uC2DC \uD55C \uBC88 \uAC00\uBCFC\uAE4C?"

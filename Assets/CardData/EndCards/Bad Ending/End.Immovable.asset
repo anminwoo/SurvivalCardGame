@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Immovable
   explanation: "\uB2F9\uC2E0\uC740 \uB354 \uC774\uC0C1 \uC6C0\uC9C1\uC77C \uC218\uAC00
     \uC5C6\uC2B5\uB2C8\uB2E4..."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 6092ddc5b85ec324693cd6109d79b0c2, type: 3}
   characterName: "Bad Ending2.\uACE8\uC808"
   leftDialogue: "\uB2E4\uC2DC?"
   rightDialogue: "\uADF8\uB9CC\uD558\uAE30"

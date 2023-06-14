@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: KilledByWolf
   explanation: "\uB2F9\uC2E0\uC740 \uB291\uB300\uC5D0\uAC8C \uBB3C\uC5B4\uB72F\uACBC\uC2B5\uB2C8\uB2E4..."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: b0fe4b59e159dd84d82afbac5d9df50f, type: 3}
   characterName: "BadEnding1.\uB291\uB300"
   leftDialogue: "\uB2E4\uC2DC?"
   rightDialogue: "\uADF8\uB9CC\uD558\uAE30"

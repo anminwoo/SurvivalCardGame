@@ -18,10 +18,10 @@ MonoBehaviour:
     \uB450\uD1B5\uC73C\uB85C \uC778\uD574 \uAD6C\uD1A0\uB97C \uD588\uC2B5\uB2C8\uB2E4.
     \uC5BC\uB9C8 \uB4A4 \uC880 \uB098\uC544\uC9C4 \uB2F9\uC2E0\uC740 \uB2E4\uC2DC
     \uAE38\uC744 \uB5A0\uB0A9\uB2C8\uB2E4"
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 8660b2e7cfaf11e4ca282269774bc59b, type: 3}
   characterName: 
-  leftDialogue: Wake up after a day
-  rightDialogue: Wake up after a day
+  leftDialogue: "\uC73C\uC73C..."
+  rightDialogue: "\uC73C\uC73C..."
   gameOverCard: {fileID: 0}
   leftSwipeEvent:
     m_PersistentCalls:

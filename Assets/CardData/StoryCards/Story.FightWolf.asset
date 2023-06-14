@@ -19,7 +19,7 @@ MonoBehaviour:
     \uC8FC\uC6CC \uB291\uB300\uC5D0\uAC8C \uB358\uC9D1\uB2C8\uB2E4. \uC6B4 \uC88B\uAC8C\uB3C4
     \uB291\uB300\uC758 \uC5BC\uAD74\uC5D0 \uC815\uD655\uD788 \uBA85\uC911\uD588\uACE0
     \uB291\uB300\uB294 \uB3C4\uB9DD\uCE69\uB2C8\uB2E4."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: 138047db59811c944a5e9541af7c4c27, type: 3}
   characterName: 
   leftDialogue: "\uD734..."
   rightDialogue: "\uD734..."

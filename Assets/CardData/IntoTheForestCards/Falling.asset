@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Falling
   explanation: "\uAC00\uD30C\uB978 \uC9C0\uD615\uC744 \uAC77\uB358 \uB2F9\uC2E0\uC740
     \uBC1C\uC744 \uD5DB\uB51B\uC5B4 \uB5A8\uC5B4\uC9D1\uB2C8\uB2E4."
-  characterImage: {fileID: 0}
+  characterImage: {fileID: 21300000, guid: e6b6849f33869c84088fcd664cc6b740, type: 3}
   characterName: 
   leftDialogue: "\uC606\uC5D0 \uC788\uB294 \uB098\uBB47\uAC00\uC9C0\uB97C \uBD99\uC7A1\uB294\uB2E4"
   rightDialogue: "\uCC29\uC9C0\uD560 \uC900\uBE44\uB97C \uD55C\uB2E4"
