@@ -20,7 +20,7 @@ MonoBehaviour:
   characterName: "\uC2DC\uB0C7\uBB3C"
   leftDialogue: "\uB9C8\uC2E0\uB2E4"
   rightDialogue: "\uBB3C\uC904\uAE30\uB97C \uB530\uB77C\uAC04\uB2E4"
-  gameOverCard: {fileID: 0}
+  gameOverCard: {fileID: 11400000, guid: b80872c0ce9b11b458b9251c211b7ec3, type: 2}
   leftSwipeEvent:
     m_PersistentCalls:
       m_Calls:
@@ -63,6 +63,18 @@ MonoBehaviour:
   rightSwipeEvent:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: ChangeThirstValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -20
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
         m_TargetAssemblyTypeName: Card, Assembly-CSharp
         m_MethodName: AddCard
