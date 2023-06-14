@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a89955c15f03047bcb5613bba1df42, type: 3}
+  m_Name: EatWorm
+  m_EditorClassIdentifier: 
+  cardName: EatWorm
+  explanation: "\uBC8C\uB808\uB294 \uD6CC\uB96D\uD55C \uB2E8\uBC31\uC9C8 \uACF5\uAE09\uC6D0\uC774\uC8E0"
+  characterImage: {fileID: 21300000, guid: 1dd0ffbefbc09af428ae42185b1533d3, type: 3}
+  characterName: "\uBC8C\uB808"
+  leftDialogue: "\uC73C \uBC8C\uB808"
+  rightDialogue: "\uB0E0\uB0E0"
+  gameOverCard: {fileID: 11400000, guid: bf532b2d40a2b474b8c5b9f4fd4c170e, type: 2}
+  leftSwipeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: ChangeHungerValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -30
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: InstantiateCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: MoveNextDay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  rightSwipeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: ChangeMentalValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -20
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: ChangeHungerValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 30
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: InstantiateCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8778780650880308043, guid: 16046a89bffa1174ebc41239d50bbb6c, type: 3}
+        m_TargetAssemblyTypeName: Card, Assembly-CSharp
+        m_MethodName: MoveNextDay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
