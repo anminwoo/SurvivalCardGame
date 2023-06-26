@@ -18,7 +18,7 @@ MonoBehaviour:
   characterName: "\uBC8C\uB808"
   leftDialogue: "\uC73C \uBC8C\uB808"
   rightDialogue: "\uB0E0\uB0E0"
-  gameOverCard: {fileID: 11400000, guid: bf532b2d40a2b474b8c5b9f4fd4c170e, type: 2}
+  gameOverCard: {fileID: 11400000, guid: 6168177e4c4f224429fe828d7c9bba89, type: 2}
   leftSwipeEvent:
     m_PersistentCalls:
       m_Calls:
